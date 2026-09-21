@@ -1,0 +1,11 @@
+services:
+  pokemon-collection:
+    build: .
+    container_name: pokemon-collection
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - TCGDEX_LANG=fr
+    restart: unless-stopped

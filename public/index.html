@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ma Collection Pokémon</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img class="logo" src="logo.png" alt="Logo Edeiwells" />
+      <h1>Ma Collection Pokémon</h1>
+    </div>
+    <div class="lang-switch">
+      <label for="lang-select">Langue des cartes</label>
+      <select id="lang-select">
+        <option value="fr">🇫🇷 Français</option>
+        <option value="ja">🇯🇵 日本語</option>
+      </select>
+    </div>
+    <nav class="tabs">
+      <button class="tab-btn active" data-tab="browse">Parcourir</button>
+      <button class="tab-btn" data-tab="collection">Ma collection</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tab-browse" class="tab-panel active">
+      <div class="toolbar">
+        <input id="search-input" type="text" placeholder="Rechercher une carte par nom (ex: Pikachu)…" />
+        <button id="search-btn">Rechercher</button>
+        <span class="sep">ou</span>
+        <div class="set-picker">
+          <input id="set-search-input" type="text" placeholder="Extension (nom ou code, ex: me2.5)…" autocomplete="off" />
+          <div id="set-suggestions" class="suggestions" hidden></div>
+        </div>
+      </div>
+      <div id="browse-status" class="status"></div>
+      <div id="card-grid" class="card-grid"></div>
+    </section>
+
+    <section id="tab-collection" class="tab-panel">
+      <div id="stats-bar" class="stats-bar"></div>
+
+      <div class="toolbar">
+        <div class="set-picker">
+          <input id="collection-set-search" type="text" placeholder="Aller à une extension (nom ou code, ex: me2.5)…" autocomplete="off" />
+          <div id="collection-set-suggestions" class="suggestions" hidden></div>
+        </div>
+        <button id="collection-back-btn" class="ghost" hidden>← Retour aux extensions</button>
+      </div>
+
+      <div id="collection-filter-bar" class="filter-bar" hidden>
+        <button class="filter-btn active" data-filter="all">Toutes</button>
+        <button class="filter-btn" data-filter="owned">Possédées</button>
+        <button class="filter-btn" data-filter="missing">Manquantes</button>
+        <button class="filter-btn" data-filter="masterset" title="Cartes déjà possédées mais incomplètes : il te manque au moins une variante (normale/holo/reverse) confirmée existante">Master Set</button>
+      </div>
+
+      <div id="collection-status" class="status"></div>
+      <div id="collection-sets-grid" class="sets-grid"></div>
+      <div id="collection-grid" class="card-grid" hidden></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
