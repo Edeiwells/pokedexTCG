@@ -1,7 +1,7 @@
 const BASE = 'https://api.tcgdex.net/v2';
 const CACHE_TTL = 1000 * 60 * 30; // 30 minutes
 
-const SUPPORTED_LANGS = new Set(['fr', 'ja']);
+const SUPPORTED_LANGS = new Set(['fr', 'ja', 'zh-cn']);
 const DEFAULT_LANG = process.env.TCGDEX_LANG || 'fr';
 
 function normalizeLang(lang) {
