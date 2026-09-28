@@ -473,7 +473,7 @@ async function renderCollectionOverview(items) {
       tile.innerHTML = `
         <div class="qty-badge">×${g.totalQty}</div>
         ${logoUrl ? `<img src="${logoUrl}" alt="${g.setName}" class="set-logo" onerror="this.replaceWith(Object.assign(document.createElement('div'), {className:'set-logo placeholder'}))" />` : `<div class="set-logo placeholder"></div>`}
-        <div class="set-tile-name">${g.setName}</div>
+        <div class="set-tile-name" title="${g.setName}">${g.setName}</div>
         <div class="set-tile-meta">${g.lang.toUpperCase()} · ${g.uniqueCount}${total ? '/' + total : ''} carte(s) unique(s)</div>
         ${total ? `<div class="progress"><div class="progress-bar" style="width:${Math.min(100, (g.uniqueCount / total) * 100)}%"></div></div>` : ''}
       `;
