@@ -41,14 +41,22 @@ function showToast(msg) {
   setTimeout(() => els.toast.classList.remove('show'), 1800);
 }
 
+// Local sets point to a complete image file; TCGdex gives a base URL to suffix.
+function isFullImageUrl(url) {
+  return /\.(jpe?g|png|webp)(\?|$)/.test(url);
+}
+
 function cardImageUrl(image, quality = 'low') {
   if (!image) return '';
+  if (isFullImageUrl(image)) return image;
   return `${image}/${quality}.webp`;
 }
 
 function setLogoUrl(set) {
+  if (!set || !set.logo) return null;
+  if (isFullImageUrl(set.logo)) return set.logo;
   // Not every set has a .webp logo on TCGdex (some only exist as .png), so use .png here.
-  return set && set.logo ? `${set.logo}.png` : null;
+  return `${set.logo}.png`;
 }
 
 const VARIANT_DEFS = [
@@ -259,11 +267,12 @@ function createCardTile(brief, ctx, rerender) {
   const name = document.createElement('div');
   name.className = 'name';
   name.textContent = brief.name;
+  name.title = brief.name;
   card.appendChild(name);
 
   const meta = document.createElement('div');
   meta.className = 'meta';
-  meta.textContent = `#${brief.localId ?? '?'}${ctx.setName ? ' · ' + ctx.setName : ''}`;
+  meta.textContent = `#${brief.localId ?? '?'}`;
   card.appendChild(meta);
 
   const availability = state.variantAvailability.get(brief.id); // object | null (unconfirmed) | undefined (not loaded yet)
@@ -462,6 +471,7 @@ async function renderCollectionOverview(items) {
       const tile = document.createElement('div');
       tile.className = 'set-tile';
       tile.innerHTML = `
+        <div class="qty-badge">×${g.totalQty}</div>
         ${logoUrl ? `<img src="${logoUrl}" alt="${g.setName}" class="set-logo" onerror="this.replaceWith(Object.assign(document.createElement('div'), {className:'set-logo placeholder'}))" />` : `<div class="set-logo placeholder"></div>`}
         <div class="set-tile-name">${g.setName}</div>
         <div class="set-tile-meta">${g.lang.toUpperCase()} · ${g.uniqueCount}${total ? '/' + total : ''} carte(s) unique(s)</div>

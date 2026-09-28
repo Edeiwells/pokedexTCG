@@ -1,0 +1,1187 @@
+{
+  "id": "S7R",
+  "name": "창공의스트림",
+  "releaseDate": "2021-07-09",
+  "serie": {
+    "id": "S",
+    "name": "검과 방패"
+  },
+  "cardCount": {
+    "official": 67,
+    "total": 90
+  },
+  "logo": "/local-images/logos/ko-S7R.png",
+  "source": "Noms/raretés : collectory.cc (KR). Images : scans japonais de pokecardex.com (même numérotation), copiés dans public/local-images. Logo : version japonaise (pokecardex.com), pas de logo coréen trouvé.",
+  "cards": [
+    {
+      "id": "S7R-001",
+      "localId": "001",
+      "name": "통통코",
+      "image": "/local-images/ko/S7R/001.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-002",
+      "localId": "002",
+      "name": "두코",
+      "image": "/local-images/ko/S7R/002.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-003",
+      "localId": "003",
+      "name": "솜솜코",
+      "image": "/local-images/ko/S7R/003.jpg",
+      "rarity": "R",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-004",
+      "localId": "004",
+      "name": "트로피우스",
+      "image": "/local-images/ko/S7R/004.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-005",
+      "localId": "005",
+      "name": "야나프",
+      "image": "/local-images/ko/S7R/005.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-006",
+      "localId": "006",
+      "name": "야나키",
+      "image": "/local-images/ko/S7R/006.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-007",
+      "localId": "007",
+      "name": "대로트V",
+      "image": "/local-images/ko/S7R/007.jpg",
+      "rarity": "RR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-008",
+      "localId": "008",
+      "name": "대로트VMAX",
+      "image": "/local-images/ko/S7R/008.jpg",
+      "rarity": "RRR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-009",
+      "localId": "009",
+      "name": "과사삭벌레",
+      "image": "/local-images/ko/S7R/009.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-010",
+      "localId": "010",
+      "name": "식스테일",
+      "image": "/local-images/ko/S7R/010.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-011",
+      "localId": "011",
+      "name": "나인테일",
+      "image": "/local-images/ko/S7R/011.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-012",
+      "localId": "012",
+      "name": "비크티니",
+      "image": "/local-images/ko/S7R/012.jpg",
+      "rarity": "R",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-013",
+      "localId": "013",
+      "name": "바오프",
+      "image": "/local-images/ko/S7R/013.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-014",
+      "localId": "014",
+      "name": "바오키",
+      "image": "/local-images/ko/S7R/014.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-015",
+      "localId": "015",
+      "name": "불카모스V",
+      "image": "/local-images/ko/S7R/015.jpg",
+      "rarity": "RR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-016",
+      "localId": "016",
+      "name": "태우지네",
+      "image": "/local-images/ko/S7R/016.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-017",
+      "localId": "017",
+      "name": "다태우지네",
+      "image": "/local-images/ko/S7R/017.jpg",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-018",
+      "localId": "018",
+      "name": "셀러",
+      "image": "/local-images/ko/S7R/018.jpg",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-019",
+      "localId": "019",
+      "name": "파르셀",
+      "image": "/local-images/ko/S7R/019.jpg",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-020",
+      "localId": "020",
+      "name": "갸라도스V",
+      "image": "/local-images/ko/S7R/020.jpg",
+      "rarity": "RR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-021",
+      "localId": "021",
+      "name": "갸라도스VMAX",
+      "rarity": "RRR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/021.jpg"
+    },
+    {
+      "id": "S7R-022",
+      "localId": "022",
+      "name": "가라르 달막화",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/022.jpg"
+    },
+    {
+      "id": "S7R-023",
+      "localId": "023",
+      "name": "가라르 불비달마",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/023.jpg"
+    },
+    {
+      "id": "S7R-024",
+      "localId": "024",
+      "name": "프리지오",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/024.jpg"
+    },
+    {
+      "id": "S7R-025",
+      "localId": "025",
+      "name": "약어리",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/025.jpg"
+    },
+    {
+      "id": "S7R-026",
+      "localId": "026",
+      "name": "메리프",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/026.jpg"
+    },
+    {
+      "id": "S7R-027",
+      "localId": "027",
+      "name": "보송송",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/027.jpg"
+    },
+    {
+      "id": "S7R-028",
+      "localId": "028",
+      "name": "전룡",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/028.jpg"
+    },
+    {
+      "id": "S7R-029",
+      "localId": "029",
+      "name": "플러시",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/029.jpg"
+    },
+    {
+      "id": "S7R-030",
+      "localId": "030",
+      "name": "마이농",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/030.jpg"
+    },
+    {
+      "id": "S7R-031",
+      "localId": "031",
+      "name": "일레즌",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/031.jpg"
+    },
+    {
+      "id": "S7R-032",
+      "localId": "032",
+      "name": "스트린더",
+      "rarity": "R",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/032.jpg"
+    },
+    {
+      "id": "S7R-033",
+      "localId": "033",
+      "name": "레지에레키",
+      "rarity": "R",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/033.jpg"
+    },
+    {
+      "id": "S7R-034",
+      "localId": "034",
+      "name": "모래두지",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/034.jpg"
+    },
+    {
+      "id": "S7R-035",
+      "localId": "035",
+      "name": "고지",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/035.jpg"
+    },
+    {
+      "id": "S7R-036",
+      "localId": "036",
+      "name": "요가램V",
+      "rarity": "RR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/036.jpg"
+    },
+    {
+      "id": "S7R-037",
+      "localId": "037",
+      "name": "오뚝군",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/037.jpg"
+    },
+    {
+      "id": "S7R-038",
+      "localId": "038",
+      "name": "점토도리",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/038.jpg"
+    },
+    {
+      "id": "S7R-039",
+      "localId": "039",
+      "name": "랜드로스",
+      "rarity": "R",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/039.jpg"
+    },
+    {
+      "id": "S7R-040",
+      "localId": "040",
+      "name": "포곰곰",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/040.jpg"
+    },
+    {
+      "id": "S7R-041",
+      "localId": "041",
+      "name": "이븐곰",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/041.jpg"
+    },
+    {
+      "id": "S7R-042",
+      "localId": "042",
+      "name": "망나뇽V",
+      "rarity": "RR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/042.jpg"
+    },
+    {
+      "id": "S7R-043",
+      "localId": "043",
+      "name": "아공이",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/043.jpg"
+    },
+    {
+      "id": "S7R-044",
+      "localId": "044",
+      "name": "쉘곤",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/044.jpg"
+    },
+    {
+      "id": "S7R-045",
+      "localId": "045",
+      "name": "보만다",
+      "rarity": "R",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/045.jpg"
+    },
+    {
+      "id": "S7R-046",
+      "localId": "046",
+      "name": "레쿠쟈V",
+      "rarity": "RR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/046.jpg"
+    },
+    {
+      "id": "S7R-047",
+      "localId": "047",
+      "name": "레쿠쟈VMAX",
+      "rarity": "RRR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/047.jpg"
+    },
+    {
+      "id": "S7R-048",
+      "localId": "048",
+      "name": "지가르데",
+      "rarity": "R",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/048.jpg"
+    },
+    {
+      "id": "S7R-049",
+      "localId": "049",
+      "name": "폭거북스",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/049.jpg"
+    },
+    {
+      "id": "S7R-050",
+      "localId": "050",
+      "name": "애프룡",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/050.jpg"
+    },
+    {
+      "id": "S7R-051",
+      "localId": "051",
+      "name": "단지래플",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/051.jpg"
+    },
+    {
+      "id": "S7R-052",
+      "localId": "052",
+      "name": "레지드래고",
+      "rarity": "R",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/052.jpg"
+    },
+    {
+      "id": "S7R-053",
+      "localId": "053",
+      "name": "럭키",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/053.jpg"
+    },
+    {
+      "id": "S7R-054",
+      "localId": "054",
+      "name": "해피너스",
+      "rarity": "U",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/054.jpg"
+    },
+    {
+      "id": "S7R-055",
+      "localId": "055",
+      "name": "노라키",
+      "rarity": "C",
+      "category": "Pokemon",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/055.jpg"
+    },
+    {
+      "id": "S7R-056",
+      "localId": "056",
+      "name": "뽑기 아이스",
+      "rarity": "U",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/056.jpg"
+    },
+    {
+      "id": "S7R-057",
+      "localId": "057",
+      "name": "수퍼볼",
+      "rarity": "U",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/057.jpg"
+    },
+    {
+      "id": "S7R-058",
+      "localId": "058",
+      "name": "토이캐처",
+      "rarity": "U",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/058.jpg"
+    },
+    {
+      "id": "S7R-059",
+      "localId": "059",
+      "name": "포켓몬 교체",
+      "rarity": "U",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/059.jpg"
+    },
+    {
+      "id": "S7R-060",
+      "localId": "060",
+      "name": "고무글러브",
+      "rarity": "U",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/060.jpg"
+    },
+    {
+      "id": "S7R-061",
+      "localId": "061",
+      "name": "영계의 가면",
+      "rarity": "U",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/061.jpg"
+    },
+    {
+      "id": "S7R-062",
+      "localId": "062",
+      "name": "연격의 두루마리 비룡의 권",
+      "rarity": "U",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/062.jpg"
+    },
+    {
+      "id": "S7R-063",
+      "localId": "063",
+      "name": "사나",
+      "rarity": "C",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/063.jpg"
+    },
+    {
+      "id": "S7R-064",
+      "localId": "064",
+      "name": "스쿨보이",
+      "rarity": "C",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/064.jpg"
+    },
+    {
+      "id": "S7R-065",
+      "localId": "065",
+      "name": "피아나의 결의",
+      "rarity": "U",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/065.jpg"
+    },
+    {
+      "id": "S7R-066",
+      "localId": "066",
+      "name": "폭풍우 치는 산맥",
+      "rarity": "U",
+      "category": "Trainer",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/066.jpg"
+    },
+    {
+      "id": "S7R-067",
+      "localId": "067",
+      "name": "오로라 에너지",
+      "rarity": "U",
+      "category": "Energy",
+      "variants": {
+        "normal": true,
+        "holo": false,
+        "reverse": false
+      },
+      "image": "/local-images/ko/S7R/067.jpg"
+    },
+    {
+      "id": "S7R-068",
+      "localId": "068",
+      "name": "대로트V",
+      "image": "/local-images/ko/S7R/068.jpg",
+      "rarity": "SR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-069",
+      "localId": "069",
+      "name": "불카모스V",
+      "image": "/local-images/ko/S7R/069.jpg",
+      "rarity": "SR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-070",
+      "localId": "070",
+      "name": "갸라도스V",
+      "image": "/local-images/ko/S7R/070.jpg",
+      "rarity": "SR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-071",
+      "localId": "071",
+      "name": "요가램V",
+      "image": "/local-images/ko/S7R/071.jpg",
+      "rarity": "SR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-072",
+      "localId": "072",
+      "name": "요가램V",
+      "image": "/local-images/ko/S7R/072.jpg",
+      "rarity": "SR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-073",
+      "localId": "073",
+      "name": "망나뇽V",
+      "image": "/local-images/ko/S7R/073.jpg",
+      "rarity": "SR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-074",
+      "localId": "074",
+      "name": "망나뇽V",
+      "image": "/local-images/ko/S7R/074.jpg",
+      "rarity": "SR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-075",
+      "localId": "075",
+      "name": "레쿠쟈V",
+      "image": "/local-images/ko/S7R/075.jpg",
+      "rarity": "SR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-076",
+      "localId": "076",
+      "name": "레쿠쟈V",
+      "image": "/local-images/ko/S7R/076.jpg",
+      "rarity": "SR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-077",
+      "localId": "077",
+      "name": "사나",
+      "image": "/local-images/ko/S7R/077.jpg",
+      "rarity": "SR",
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-078",
+      "localId": "078",
+      "name": "스쿨보이",
+      "image": "/local-images/ko/S7R/078.jpg",
+      "rarity": "SR",
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-079",
+      "localId": "079",
+      "name": "피아나의 결의",
+      "image": "/local-images/ko/S7R/079.jpg",
+      "rarity": "SR",
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-080",
+      "localId": "080",
+      "name": "대로트VMAX",
+      "image": "/local-images/ko/S7R/080.jpg",
+      "rarity": "HR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-081",
+      "localId": "081",
+      "name": "갸라도스VMAX",
+      "image": "/local-images/ko/S7R/081.jpg",
+      "rarity": "HR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-082",
+      "localId": "082",
+      "name": "레쿠쟈VMAX",
+      "image": "/local-images/ko/S7R/082.jpg",
+      "rarity": "HR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-083",
+      "localId": "083",
+      "name": "레쿠쟈VMAX",
+      "image": "/local-images/ko/S7R/083.jpg",
+      "rarity": "HR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-084",
+      "localId": "084",
+      "name": "사나",
+      "image": "/local-images/ko/S7R/084.jpg",
+      "rarity": "HR",
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-085",
+      "localId": "085",
+      "name": "스쿨보이",
+      "image": "/local-images/ko/S7R/085.jpg",
+      "rarity": "HR",
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-086",
+      "localId": "086",
+      "name": "피아나의 결의",
+      "image": "/local-images/ko/S7R/086.jpg",
+      "rarity": "HR",
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-087",
+      "localId": "087",
+      "name": "눈여아",
+      "image": "/local-images/ko/S7R/087.jpg",
+      "rarity": "UR",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-088",
+      "localId": "088",
+      "name": "토이캐처",
+      "image": "/local-images/ko/S7R/088.jpg",
+      "rarity": "UR",
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-089",
+      "localId": "089",
+      "name": "폭풍우 치는 산맥",
+      "image": "/local-images/ko/S7R/089.jpg",
+      "rarity": "UR",
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "S7R-090",
+      "localId": "090",
+      "name": "번개 에너지",
+      "image": "/local-images/ko/S7R/090.jpg",
+      "rarity": "UR",
+      "category": "Energy",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    }
+  ]
+}
