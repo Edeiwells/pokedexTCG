@@ -106,8 +106,21 @@ function localCard(lang, cardId) {
 }
 
 function setBrief(set) {
-  const { cards, cardImages, source, ...brief } = set;
+  const { cards, cardImages, reverseAs, cardVariants, source, ...brief } = set;
   return brief;
+}
+
+// Corrections to TCGdex's variant data for one card, from its set's local file:
+// `reverseAs` renames the plain reverse (e.g. "pokeball" where no plain reverse exists) and
+// `cardVariants` ({ localId: { holo: true, ... } }) overrides individual cards.
+function localVariantFixes(lang, card) {
+  const setId = card.set ? card.set.id : card.id.slice(0, card.id.lastIndexOf('-'));
+  const set = localSet(normalizeLang(lang), setId);
+  if (!set) return {};
+  return {
+    reverseAs: set.reverseAs || null,
+    overrides: (set.cardVariants && set.cardVariants[card.localId]) || null,
+  };
 }
 
 // `cardImages` ({ localId: url }) fills in images TCGdex is missing for cards it does list.
@@ -184,4 +197,5 @@ module.exports = {
   getSet,
   getCard,
   searchCards,
+  localVariantFixes,
 };

@@ -1,0 +1,163 @@
+{
+  "id": "SV8a",
+  "source": "Variantes vérifiées sur yuyu-tei.jp : pas de reverse simple dans ce set (le reverse de TCGdex est la Poké Ball), et les cartes R sont holo.",
+  "reverseAs": "pokeball",
+  "cardVariants": {
+    "100": {
+      "normal": false,
+      "holo": true
+    },
+    "111": {
+      "normal": false,
+      "holo": true
+    },
+    "113": {
+      "normal": false,
+      "holo": true
+    },
+    "115": {
+      "normal": false,
+      "holo": true
+    },
+    "122": {
+      "normal": false,
+      "holo": true
+    },
+    "123": {
+      "normal": false,
+      "holo": true
+    },
+    "128": {
+      "normal": false,
+      "holo": true
+    },
+    "130": {
+      "normal": false,
+      "holo": true
+    },
+    "135": {
+      "normal": false,
+      "holo": true
+    },
+    "005": {
+      "normal": false,
+      "holo": true
+    },
+    "012": {
+      "normal": false,
+      "holo": true
+    },
+    "015": {
+      "normal": false,
+      "holo": true
+    },
+    "018": {
+      "normal": false,
+      "holo": true
+    },
+    "021": {
+      "normal": false,
+      "holo": true
+    },
+    "024": {
+      "normal": false,
+      "holo": true
+    },
+    "025": {
+      "normal": false,
+      "holo": true
+    },
+    "030": {
+      "normal": false,
+      "holo": true
+    },
+    "034": {
+      "normal": false,
+      "holo": true
+    },
+    "038": {
+      "normal": false,
+      "holo": true
+    },
+    "048": {
+      "normal": false,
+      "holo": true
+    },
+    "051": {
+      "normal": false,
+      "holo": true
+    },
+    "053": {
+      "normal": false,
+      "holo": true
+    },
+    "055": {
+      "normal": false,
+      "holo": true
+    },
+    "059": {
+      "normal": false,
+      "holo": true
+    },
+    "066": {
+      "normal": false,
+      "holo": true
+    },
+    "070": {
+      "normal": false,
+      "holo": true
+    },
+    "072": {
+      "normal": false,
+      "holo": true
+    },
+    "075": {
+      "normal": false,
+      "holo": true
+    },
+    "076": {
+      "normal": false,
+      "holo": true
+    },
+    "077": {
+      "normal": false,
+      "holo": true
+    },
+    "079": {
+      "normal": false,
+      "holo": true
+    },
+    "080": {
+      "normal": false,
+      "holo": true
+    },
+    "084": {
+      "normal": false,
+      "holo": true
+    },
+    "085": {
+      "normal": false,
+      "holo": true
+    },
+    "089": {
+      "normal": false,
+      "holo": true
+    },
+    "090": {
+      "normal": false,
+      "holo": true
+    },
+    "097": {
+      "normal": false,
+      "holo": true
+    },
+    "098": {
+      "normal": false,
+      "holo": true
+    },
+    "099": {
+      "normal": false,
+      "holo": true
+    }
+  }
+}

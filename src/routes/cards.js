@@ -37,6 +37,15 @@ function variantAvailability(card) {
   };
 }
 
+function withLocalFixes(availability, { reverseAs, overrides }) {
+  const fixed = { ...availability };
+  if (reverseAs && fixed.reverse) {
+    fixed.reverse = false;
+    fixed[reverseAs] = true;
+  }
+  return overrides ? { ...fixed, ...overrides } : fixed;
+}
+
 router.get('/variants', async (req, res) => {
   const { ids, lang } = req.query;
   if (!ids) {
@@ -58,7 +67,7 @@ router.get('/variants', async (req, res) => {
         // of trusting it, so the UI never presents a guess as a fact.
         const detailed = card.variants_detailed || [];
         const isGenerated = detailed.some((v) => v.variantId === 'generated');
-        result[id] = isGenerated ? null : variantAvailability(card);
+        result[id] = isGenerated ? null : withLocalFixes(variantAvailability(card), tcgdex.localVariantFixes(lang, card));
       } catch (err) {
         // Could not confirm this card's real variants from TCGdex: report "unknown"
         // rather than guessing, so the UI never claims a variant exists without proof.
