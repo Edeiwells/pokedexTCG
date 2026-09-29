@@ -16,6 +16,27 @@ router.get('/search', async (req, res) => {
   }
 });
 
+// TCGdex's flat `variants.reverse` covers every reverse print, whatever its foil. The
+// detailed list tells them apart: a plain reverse has no foil, while Poké Ball / Master Ball
+// reverses carry foil "pokeball"/"Pokéball" and "masterball" (spelling varies by language).
+function variantAvailability(card) {
+  const flat = card.variants || {};
+  const detailed = card.variants_detailed;
+  if (!detailed || !detailed.length) {
+    return { normal: !!flat.normal, holo: !!flat.holo, reverse: !!flat.reverse, pokeball: false, masterball: false };
+  }
+  const reverseFoils = detailed
+    .filter((v) => (v.type || '').toLowerCase() === 'reverse')
+    .map((v) => (v.foil || '').toLowerCase().normalize('NFD').replace(/[^a-z]/g, ''));
+  return {
+    normal: !!flat.normal,
+    holo: !!flat.holo,
+    reverse: reverseFoils.includes(''),
+    pokeball: reverseFoils.includes('pokeball'),
+    masterball: reverseFoils.includes('masterball'),
+  };
+}
+
 router.get('/variants', async (req, res) => {
   const { ids, lang } = req.query;
   if (!ids) {
@@ -37,13 +58,7 @@ router.get('/variants', async (req, res) => {
         // of trusting it, so the UI never presents a guess as a fact.
         const detailed = card.variants_detailed || [];
         const isGenerated = detailed.some((v) => v.variantId === 'generated');
-        result[id] = isGenerated
-          ? null
-          : {
-              normal: !!(card.variants && card.variants.normal),
-              holo: !!(card.variants && card.variants.holo),
-              reverse: !!(card.variants && card.variants.reverse),
-            };
+        result[id] = isGenerated ? null : variantAvailability(card);
       } catch (err) {
         // Could not confirm this card's real variants from TCGdex: report "unknown"
         // rather than guessing, so the UI never claims a variant exists without proof.

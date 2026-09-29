@@ -26,6 +26,7 @@ const els = {
   collectionSetSearch: document.getElementById('collection-set-search'),
   collectionSetSuggestions: document.getElementById('collection-set-suggestions'),
   collectionBackBtn: document.getElementById('collection-back-btn'),
+  collectionOfflineBtn: document.getElementById('collection-offline-btn'),
   filterBar: document.getElementById('collection-filter-bar'),
   filterBtns: document.querySelectorAll('.filter-btn'),
   collectionStatus: document.getElementById('collection-status'),
@@ -46,23 +47,30 @@ function isFullImageUrl(url) {
   return /\.(jpe?g|png|webp)(\?|$)/.test(url);
 }
 
+// TCGdex images go through our server, which keeps a copy so they survive a TCGdex outage.
+function viaLocalCache(url) {
+  return url.replace(/^https:\/\/assets\.tcgdex\.net\//, '/tcgdex-assets/');
+}
+
 function cardImageUrl(image, quality = 'low') {
   if (!image) return '';
   if (isFullImageUrl(image)) return image;
-  return `${image}/${quality}.webp`;
+  return viaLocalCache(`${image}/${quality}.webp`);
 }
 
 function setLogoUrl(set) {
   if (!set || !set.logo) return null;
   if (isFullImageUrl(set.logo)) return set.logo;
   // Not every set has a .webp logo on TCGdex (some only exist as .png), so use .png here.
-  return `${set.logo}.png`;
+  return viaLocalCache(`${set.logo}.png`);
 }
 
 const VARIANT_DEFS = [
   { key: 'normal', label: 'Normale' },
   { key: 'holo', label: 'Holo' },
   { key: 'reverse', label: 'Reverse' },
+  { key: 'pokeball', label: 'Poké Ball' },
+  { key: 'masterball', label: 'Master Ball' },
 ];
 
 function variantLabel(key) {
@@ -437,6 +445,7 @@ async function renderCollectionOverview(items) {
   state.collectionView = 'overview';
   state.collectionDetail = null;
   els.collectionBackBtn.hidden = true;
+  els.collectionOfflineBtn.hidden = true;
   els.filterBar.hidden = true;
   els.collectionGrid.hidden = true;
   els.collectionGrid.innerHTML = '';
@@ -490,6 +499,7 @@ async function openCollectionDetail(setId, lang) {
   els.collectionSetsGrid.hidden = true;
   els.collectionGrid.hidden = false;
   els.collectionBackBtn.hidden = false;
+  els.collectionOfflineBtn.hidden = false;
   els.filterBar.hidden = false;
   els.collectionStatus.textContent = 'Chargement…';
   els.collectionGrid.innerHTML = '';
@@ -510,6 +520,28 @@ async function openCollectionDetail(setId, lang) {
 els.collectionBackBtn.addEventListener('click', async () => {
   const data = await refreshCollectionMapAndStats();
   renderCollectionOverview(data.items);
+});
+
+els.collectionOfflineBtn.addEventListener('click', async () => {
+  const { setId, lang, name } = state.collectionDetail || {};
+  if (!setId) return;
+  const btn = els.collectionOfflineBtn;
+  btn.disabled = true;
+  btn.textContent = '⏳ Téléchargement…';
+  try {
+    const res = await fetch(`/api/sets/${encodeURIComponent(setId)}/offline?lang=${lang}`, { method: 'POST' });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || res.statusText);
+    showToast(
+      data.failed
+        ? `${name} : ${data.failed} élément(s) non récupéré(s), réessaie plus tard`
+        : `${name} disponible hors ligne (${data.cards} cartes, ${data.images} images)`
+    );
+  } catch (err) {
+    showToast(`Erreur : ${err.message}`);
+  }
+  btn.disabled = false;
+  btn.textContent = '⬇ Garder hors ligne';
 });
 
 els.filterBtns.forEach((btn) => {

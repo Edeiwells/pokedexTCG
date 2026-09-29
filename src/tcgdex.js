@@ -13,12 +13,51 @@ function normalizeLang(lang) {
 
 const cache = new Map();
 
-async function rawFetch(pathAndQuery) {
-  const res = await fetch(`${BASE}${pathAndQuery}`);
-  if (!res.ok) {
-    throw new Error(`Erreur API TCGdex (${res.status}) sur ${pathAndQuery}`);
+// Every successful TCGdex response is also saved to disk, and served from there when
+// TCGdex is down, so everything already viewed keeps working without the API.
+const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, '..', 'data');
+const API_CACHE_DIR = path.join(DATA_DIR, 'cache', 'api');
+
+function diskCacheFile(pathAndQuery) {
+  return path.join(API_CACHE_DIR, `${encodeURIComponent(pathAndQuery)}.json`);
+}
+
+function readDiskCache(pathAndQuery) {
+  try {
+    return JSON.parse(fs.readFileSync(diskCacheFile(pathAndQuery), 'utf-8'));
+  } catch (_) {
+    return undefined;
   }
-  return res.json();
+}
+
+function writeDiskCache(pathAndQuery, data) {
+  try {
+    fs.mkdirSync(API_CACHE_DIR, { recursive: true });
+    fs.writeFileSync(diskCacheFile(pathAndQuery), JSON.stringify(data));
+  } catch (err) {
+    console.warn(`Cache disque impossible pour ${pathAndQuery} : ${err.message}`);
+  }
+}
+
+async function rawFetch(pathAndQuery) {
+  let res;
+  try {
+    res = await fetch(`${BASE}${pathAndQuery}`, { signal: AbortSignal.timeout(15000) });
+  } catch (err) {
+    res = null; // network error or timeout: TCGdex unreachable
+  }
+  if (res && res.ok) {
+    const data = await res.json();
+    writeDiskCache(pathAndQuery, data);
+    return data;
+  }
+  // A 4xx is a real answer (e.g. unknown card); only fall back when TCGdex itself fails.
+  if (!res || res.status >= 500) {
+    const saved = readDiskCache(pathAndQuery);
+    if (saved !== undefined) return saved;
+  }
+  const status = res ? res.status : 'injoignable';
+  throw new Error(`Erreur API TCGdex (${status}) sur ${pathAndQuery}`);
 }
 
 async function cachedFetch(pathAndQuery) {

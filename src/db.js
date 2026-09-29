@@ -4,7 +4,8 @@ const path = require('path');
 const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, '..', 'data');
 const FILE = path.join(DATA_DIR, 'collection.json');
 
-const VARIANTS = ['normal', 'holo', 'reverse'];
+// pokeball / masterball are the reverse prints with a Poké Ball / Master Ball foil pattern.
+const VARIANTS = ['normal', 'holo', 'reverse', 'pokeball', 'masterball'];
 
 function ensureFile() {
   if (!fs.existsSync(DATA_DIR)) {
@@ -20,7 +21,7 @@ function normalizeVariant(variant) {
 }
 
 function emptyVariants() {
-  return { normal: 0, holo: 0, reverse: 0 };
+  return Object.fromEntries(VARIANTS.map((v) => [v, 0]));
 }
 
 function totalQuantity(item) {
