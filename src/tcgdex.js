@@ -79,12 +79,26 @@ function withLocalImage(lang, card, setId = card.set ? card.set.id : card.id.sli
   return image ? { ...card, image } : card;
 }
 
+// Asian set code -> equivalent French set, whose logo is shown by default (the tile still
+// shows the real language). Sets without an equivalent keep their own logo.
+const frEquivalents = JSON.parse(fs.readFileSync(path.join(LOCAL_DIR, 'fr-equivalents.json'), 'utf-8'));
+
+async function withFrenchLogos(lang, sets) {
+  if (lang === 'fr') return sets;
+  const frLogos = new Map((await getSets('fr')).map((s) => [s.id, s.logo]));
+  return sets.map((s) => {
+    const frLogo = frLogos.get(frEquivalents[s.id]);
+    return frLogo ? { ...s, logo: frLogo } : s;
+  });
+}
+
 async function getSets(lang) {
   const l = normalizeLang(lang);
   const remote = await cachedFetch(`/${l}/sets`);
   const known = new Set(remote.map((s) => s.id));
   const extra = Object.values(localSets[l] || {}).filter((s) => !known.has(s.id)).map(setBrief);
-  return [...remote.map((s) => ({ ...s, ...setBrief(localSet(l, s.id) || {}) })), ...extra];
+  const sets = [...remote.map((s) => ({ ...s, ...setBrief(localSet(l, s.id) || {}) })), ...extra];
+  return withFrenchLogos(l, sets);
 }
 
 async function getSet(lang, id) {
