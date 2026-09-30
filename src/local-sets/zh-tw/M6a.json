@@ -1,0 +1,2300 @@
+{
+  "id": "M6a",
+  "name": "30th CELEBRATION",
+  "releaseDate": "2026-09-16",
+  "cardCount": {
+    "official": 103,
+    "total": 176
+  },
+  "source": "Liste et numérotation : TCGdex ja M6a (identique en chinois traditionnel). Noms : PokeAPI (zh-Hant). Images : scans japonais de pokecardex.com (pas de scan pour la 121).",
+  "cards": [
+    {
+      "id": "M6a-001",
+      "localId": "001",
+      "name": "蛋蛋",
+      "image": "/local-images/zh-tw/M6a/001.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-002",
+      "localId": "002",
+      "name": "阿羅拉椰蛋樹",
+      "image": "/local-images/zh-tw/M6a/002.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-003",
+      "localId": "003",
+      "name": "電螢蟲",
+      "image": "/local-images/zh-tw/M6a/003.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-004",
+      "localId": "004",
+      "name": "甜甜螢",
+      "image": "/local-images/zh-tw/M6a/004.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-005",
+      "localId": "005",
+      "name": "彩粉蝶",
+      "image": "/local-images/zh-tw/M6a/005.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-006",
+      "localId": "006",
+      "name": "火焰鳥",
+      "image": "/local-images/zh-tw/M6a/006.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-007",
+      "localId": "007",
+      "name": "鳳王",
+      "image": "/local-images/zh-tw/M6a/007.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-008",
+      "localId": "008",
+      "name": "萊希拉姆",
+      "image": "/local-images/zh-tw/M6a/008.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-009",
+      "localId": "009",
+      "name": "呆火鱷ex",
+      "image": "/local-images/zh-tw/M6a/009.jpg",
+      "rarity": "Double rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-010",
+      "localId": "010",
+      "name": "呆呆獸",
+      "image": "/local-images/zh-tw/M6a/010.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-011",
+      "localId": "011",
+      "name": "拉普拉斯",
+      "image": "/local-images/zh-tw/M6a/011.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-012",
+      "localId": "012",
+      "name": "急凍鳥",
+      "image": "/local-images/zh-tw/M6a/012.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-013",
+      "localId": "013",
+      "name": "蓋歐卡",
+      "image": "/local-images/zh-tw/M6a/013.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-014",
+      "localId": "014",
+      "name": "帕路奇亞",
+      "image": "/local-images/zh-tw/M6a/014.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-015",
+      "localId": "015",
+      "name": "甲賀忍蛙ex",
+      "image": "/local-images/zh-tw/M6a/015.jpg",
+      "rarity": "Double rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-016",
+      "localId": "016",
+      "name": "弱丁魚",
+      "image": "/local-images/zh-tw/M6a/016.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-017",
+      "localId": "017",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/017.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-018",
+      "localId": "018",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/018.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-019",
+      "localId": "019",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/019.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-020",
+      "localId": "020",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/020.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-021",
+      "localId": "021",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/021.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-022",
+      "localId": "022",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/022.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-023",
+      "localId": "023",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/023.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-024",
+      "localId": "024",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/024.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-025",
+      "localId": "025",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/025.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-026",
+      "localId": "026",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/026.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-027",
+      "localId": "027",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/027.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-028",
+      "localId": "028",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/028.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-029",
+      "localId": "029",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/029.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-030",
+      "localId": "030",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/030.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-031",
+      "localId": "031",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/031.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-032",
+      "localId": "032",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/032.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-033",
+      "localId": "033",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/033.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-034",
+      "localId": "034",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/034.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-035",
+      "localId": "035",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/035.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-036",
+      "localId": "036",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/036.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-037",
+      "localId": "037",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/037.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-038",
+      "localId": "038",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/038.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-039",
+      "localId": "039",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/039.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-040",
+      "localId": "040",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/040.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-041",
+      "localId": "041",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/041.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-042",
+      "localId": "042",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/042.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-043",
+      "localId": "043",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/043.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-044",
+      "localId": "044",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/044.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-045",
+      "localId": "045",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/045.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-046",
+      "localId": "046",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/046.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-047",
+      "localId": "047",
+      "name": "皮卡丘ex",
+      "image": "/local-images/zh-tw/M6a/047.jpg",
+      "rarity": "Double rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-048",
+      "localId": "048",
+      "name": "皮卡丘ex",
+      "image": "/local-images/zh-tw/M6a/048.jpg",
+      "rarity": "Double rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-049",
+      "localId": "049",
+      "name": "閃電鳥",
+      "image": "/local-images/zh-tw/M6a/049.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-050",
+      "localId": "050",
+      "name": "捷克羅姆",
+      "image": "/local-images/zh-tw/M6a/050.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-051",
+      "localId": "051",
+      "name": "顫弦蠑螈",
+      "image": "/local-images/zh-tw/M6a/051.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-052",
+      "localId": "052",
+      "name": "莫魯貝可",
+      "image": "/local-images/zh-tw/M6a/052.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-053",
+      "localId": "053",
+      "name": "密勒頓",
+      "image": "/local-images/zh-tw/M6a/053.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-054",
+      "localId": "054",
+      "name": "超夢",
+      "image": "/local-images/zh-tw/M6a/054.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-055",
+      "localId": "055",
+      "name": "超夢ex",
+      "image": "/local-images/zh-tw/M6a/055.jpg",
+      "rarity": "Double rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-056",
+      "localId": "056",
+      "name": "夢幻",
+      "image": "/local-images/zh-tw/M6a/056.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-057",
+      "localId": "057",
+      "name": "夢幻ex",
+      "image": "/local-images/zh-tw/M6a/057.jpg",
+      "rarity": "Double rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-058",
+      "localId": "058",
+      "name": "太陽伊布",
+      "image": "/local-images/zh-tw/M6a/058.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-059",
+      "localId": "059",
+      "name": "仙子伊布ex",
+      "image": "/local-images/zh-tw/M6a/059.jpg",
+      "rarity": "Double rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-060",
+      "localId": "060",
+      "name": "未知圖騰",
+      "image": "/local-images/zh-tw/M6a/060.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-061",
+      "localId": "061",
+      "name": "飄飄球",
+      "image": "/local-images/zh-tw/M6a/061.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-062",
+      "localId": "062",
+      "name": "水晶燈火靈",
+      "image": "/local-images/zh-tw/M6a/062.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-063",
+      "localId": "063",
+      "name": "哲爾尼亞斯",
+      "image": "/local-images/zh-tw/M6a/063.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-064",
+      "localId": "064",
+      "name": "科斯莫古",
+      "image": "/local-images/zh-tw/M6a/064.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-065",
+      "localId": "065",
+      "name": "科斯莫姆",
+      "image": "/local-images/zh-tw/M6a/065.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-066",
+      "localId": "066",
+      "name": "露奈雅拉",
+      "image": "/local-images/zh-tw/M6a/066.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-067",
+      "localId": "067",
+      "name": "索財靈",
+      "image": "/local-images/zh-tw/M6a/067.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-068",
+      "localId": "068",
+      "name": "固拉多",
+      "image": "/local-images/zh-tw/M6a/068.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-069",
+      "localId": "069",
+      "name": "路卡利歐",
+      "image": "/local-images/zh-tw/M6a/069.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-070",
+      "localId": "070",
+      "name": "蟾蜍王",
+      "image": "/local-images/zh-tw/M6a/070.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-071",
+      "localId": "071",
+      "name": "鬃岩狼人",
+      "image": "/local-images/zh-tw/M6a/071.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-072",
+      "localId": "072",
+      "name": "故勒頓",
+      "image": "/local-images/zh-tw/M6a/072.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-073",
+      "localId": "073",
+      "name": "尼多蘭",
+      "image": "/local-images/zh-tw/M6a/073.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-074",
+      "localId": "074",
+      "name": "尼多娜",
+      "image": "/local-images/zh-tw/M6a/074.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-075",
+      "localId": "075",
+      "name": "阿羅拉喵喵",
+      "image": "/local-images/zh-tw/M6a/075.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-076",
+      "localId": "076",
+      "name": "耿鬼ex",
+      "image": "/local-images/zh-tw/M6a/076.jpg",
+      "rarity": "Double rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-077",
+      "localId": "077",
+      "name": "月亮伊布",
+      "image": "/local-images/zh-tw/M6a/077.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-078",
+      "localId": "078",
+      "name": "滑滑小子",
+      "image": "/local-images/zh-tw/M6a/078.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-079",
+      "localId": "079",
+      "name": "伊裴爾塔爾",
+      "image": "/local-images/zh-tw/M6a/079.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-080",
+      "localId": "080",
+      "name": "伽勒爾喵喵",
+      "image": "/local-images/zh-tw/M6a/080.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-081",
+      "localId": "081",
+      "name": "基拉祈ex",
+      "image": "/local-images/zh-tw/M6a/081.jpg",
+      "rarity": "Double rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-082",
+      "localId": "082",
+      "name": "帝牙盧卡",
+      "image": "/local-images/zh-tw/M6a/082.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-083",
+      "localId": "083",
+      "name": "堅果啞鈴",
+      "image": "/local-images/zh-tw/M6a/083.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-084",
+      "localId": "084",
+      "name": "索爾迦雷歐",
+      "image": "/local-images/zh-tw/M6a/084.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-085",
+      "localId": "085",
+      "name": "蒼響",
+      "image": "/local-images/zh-tw/M6a/085.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-086",
+      "localId": "086",
+      "name": "藏瑪然特",
+      "image": "/local-images/zh-tw/M6a/086.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-087",
+      "localId": "087",
+      "name": "賽富豪",
+      "image": "/local-images/zh-tw/M6a/087.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-088",
+      "localId": "088",
+      "name": "暴飛龍ex",
+      "image": "/local-images/zh-tw/M6a/088.jpg",
+      "rarity": "Double rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-089",
+      "localId": "089",
+      "name": "心鱗寶",
+      "image": "/local-images/zh-tw/M6a/089.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-090",
+      "localId": "090",
+      "name": "鱗甲龍",
+      "image": "/local-images/zh-tw/M6a/090.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-091",
+      "localId": "091",
+      "name": "杖尾鱗甲龍",
+      "image": "/local-images/zh-tw/M6a/091.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-092",
+      "localId": "092",
+      "name": "喵喵",
+      "image": "/local-images/zh-tw/M6a/092.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-093",
+      "localId": "093",
+      "name": "百變怪",
+      "image": "/local-images/zh-tw/M6a/093.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-094",
+      "localId": "094",
+      "name": "伊布",
+      "image": "/local-images/zh-tw/M6a/094.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-095",
+      "localId": "095",
+      "name": "卡比獸",
+      "image": "/local-images/zh-tw/M6a/095.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-096",
+      "localId": "096",
+      "name": "寶寶丁",
+      "image": "/local-images/zh-tw/M6a/096.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-097",
+      "localId": "097",
+      "name": "洛奇亞",
+      "image": "/local-images/zh-tw/M6a/097.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-098",
+      "localId": "098",
+      "name": "洗翠索羅亞",
+      "image": "/local-images/zh-tw/M6a/098.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-099",
+      "localId": "099",
+      "name": "洗翠索羅亞克",
+      "image": "/local-images/zh-tw/M6a/099.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-100",
+      "localId": "100",
+      "name": "一家鼠",
+      "image": "/local-images/zh-tw/M6a/100.jpg",
+      "rarity": null,
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-101",
+      "localId": "101",
+      "name": "高級球",
+      "image": "/local-images/zh-tw/M6a/101.jpg",
+      "rarity": null,
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-102",
+      "localId": "102",
+      "name": "寶可平板",
+      "image": "/local-images/zh-tw/M6a/102.jpg",
+      "rarity": null,
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-103",
+      "localId": "103",
+      "name": "寶可夢交替",
+      "image": "/local-images/zh-tw/M6a/103.jpg",
+      "rarity": null,
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-104",
+      "localId": "104",
+      "name": "阿羅拉椰蛋樹",
+      "image": "/local-images/zh-tw/M6a/104.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-105",
+      "localId": "105",
+      "name": "火焰鳥",
+      "image": "/local-images/zh-tw/M6a/105.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-106",
+      "localId": "106",
+      "name": "拉普拉斯",
+      "image": "/local-images/zh-tw/M6a/106.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-107",
+      "localId": "107",
+      "name": "急凍鳥",
+      "image": "/local-images/zh-tw/M6a/107.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-108",
+      "localId": "108",
+      "name": "閃電鳥",
+      "image": "/local-images/zh-tw/M6a/108.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-109",
+      "localId": "109",
+      "name": "顫弦蠑螈",
+      "image": "/local-images/zh-tw/M6a/109.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-110",
+      "localId": "110",
+      "name": "莫魯貝可",
+      "image": "/local-images/zh-tw/M6a/110.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-111",
+      "localId": "111",
+      "name": "飄飄球",
+      "image": "/local-images/zh-tw/M6a/111.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-112",
+      "localId": "112",
+      "name": "水晶燈火靈",
+      "image": "/local-images/zh-tw/M6a/112.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-113",
+      "localId": "113",
+      "name": "鬃岩狼人",
+      "image": "/local-images/zh-tw/M6a/113.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-114",
+      "localId": "114",
+      "name": "尼多娜",
+      "image": "/local-images/zh-tw/M6a/114.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-115",
+      "localId": "115",
+      "name": "阿羅拉喵喵",
+      "image": "/local-images/zh-tw/M6a/115.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-116",
+      "localId": "116",
+      "name": "滑滑小子",
+      "image": "/local-images/zh-tw/M6a/116.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-117",
+      "localId": "117",
+      "name": "伽勒爾喵喵",
+      "image": "/local-images/zh-tw/M6a/117.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-118",
+      "localId": "118",
+      "name": "賽富豪",
+      "image": "/local-images/zh-tw/M6a/118.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-119",
+      "localId": "119",
+      "name": "杖尾鱗甲龍",
+      "image": "/local-images/zh-tw/M6a/119.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-120",
+      "localId": "120",
+      "name": "喵喵",
+      "image": "/local-images/zh-tw/M6a/120.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-121",
+      "localId": "121",
+      "name": "百變怪",
+      "image": null,
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-122",
+      "localId": "122",
+      "name": "洗翠索羅亞",
+      "image": "/local-images/zh-tw/M6a/122.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-123",
+      "localId": "123",
+      "name": "一家鼠",
+      "image": "/local-images/zh-tw/M6a/123.jpg",
+      "rarity": "Illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-124",
+      "localId": "124",
+      "name": "呆火鱷ex",
+      "image": "/local-images/zh-tw/M6a/124.jpg",
+      "rarity": "Special illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-125",
+      "localId": "125",
+      "name": "甲賀忍蛙ex",
+      "image": "/local-images/zh-tw/M6a/125.jpg",
+      "rarity": "Special illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-126",
+      "localId": "126",
+      "name": "皮卡丘ex",
+      "image": "/local-images/zh-tw/M6a/126.jpg",
+      "rarity": "Special illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-127",
+      "localId": "127",
+      "name": "皮卡丘ex",
+      "image": "/local-images/zh-tw/M6a/127.jpg",
+      "rarity": "Special illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-128",
+      "localId": "128",
+      "name": "超夢ex",
+      "image": "/local-images/zh-tw/M6a/128.jpg",
+      "rarity": "Special illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-129",
+      "localId": "129",
+      "name": "夢幻ex",
+      "image": "/local-images/zh-tw/M6a/129.jpg",
+      "rarity": "Special illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-130",
+      "localId": "130",
+      "name": "仙子伊布ex",
+      "image": "/local-images/zh-tw/M6a/130.jpg",
+      "rarity": "Special illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-131",
+      "localId": "131",
+      "name": "耿鬼ex",
+      "image": "/local-images/zh-tw/M6a/131.jpg",
+      "rarity": "Special illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-132",
+      "localId": "132",
+      "name": "基拉祈ex",
+      "image": "/local-images/zh-tw/M6a/132.jpg",
+      "rarity": "Special illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-133",
+      "localId": "133",
+      "name": "暴飛龍ex",
+      "image": "/local-images/zh-tw/M6a/133.jpg",
+      "rarity": "Special illustration rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-134",
+      "localId": "134",
+      "name": "超夢ex",
+      "image": "/local-images/zh-tw/M6a/134.jpg",
+      "rarity": "Futuristic Rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-135",
+      "localId": "135",
+      "name": "夢幻ex",
+      "image": "/local-images/zh-tw/M6a/135.jpg",
+      "rarity": "Futuristic Rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-136",
+      "localId": "136",
+      "name": "皮卡丘",
+      "image": "/local-images/zh-tw/M6a/136.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-137",
+      "localId": "137",
+      "name": "噴火龍",
+      "image": "/local-images/zh-tw/M6a/137.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-138",
+      "localId": "138",
+      "name": "小霞",
+      "image": "/local-images/zh-tw/M6a/138.jpg",
+      "rarity": "Classic Collection",
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-139",
+      "localId": "139",
+      "name": "莉佳的胖丁",
+      "image": "/local-images/zh-tw/M6a/139.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-140",
+      "localId": "140",
+      "name": "狃拉",
+      "image": "/local-images/zh-tw/M6a/140.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-141",
+      "localId": "141",
+      "name": "閃耀的時拉比",
+      "image": "/local-images/zh-tw/M6a/141.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-142",
+      "localId": "142",
+      "name": "洛奇亞",
+      "image": "/local-images/zh-tw/M6a/142.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-143",
+      "localId": "143",
+      "name": "優雅貓",
+      "image": "/local-images/zh-tw/M6a/143.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-144",
+      "localId": "144",
+      "name": "壞壞的班基拉斯",
+      "image": "/local-images/zh-tw/M6a/144.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-145",
+      "localId": "145",
+      "name": "巨鉗螳螂ex",
+      "image": "/local-images/zh-tw/M6a/145.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-146",
+      "localId": "146",
+      "name": "巨金怪",
+      "image": "/local-images/zh-tw/M6a/146.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-147",
+      "localId": "147",
+      "name": "帕路奇亞",
+      "image": "/local-images/zh-tw/M6a/147.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-148",
+      "localId": "148",
+      "name": "由克希",
+      "image": "/local-images/zh-tw/M6a/148.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-149",
+      "localId": "149",
+      "name": "叉字蝠G",
+      "image": "/local-images/zh-tw/M6a/149.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-150",
+      "localId": "150",
+      "name": "耿鬼",
+      "image": "/local-images/zh-tw/M6a/150.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-151",
+      "localId": "151",
+      "name": "達克萊伊&克雷色利亞LEGEND",
+      "image": "/local-images/zh-tw/M6a/151.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-152",
+      "localId": "152",
+      "name": "達克萊伊&克雷色利亞LEGEND",
+      "image": "/local-images/zh-tw/M6a/152.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-153",
+      "localId": "153",
+      "name": "N",
+      "image": "/local-images/zh-tw/M6a/153.jpg",
+      "rarity": "Classic Collection",
+      "category": "Trainer",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-154",
+      "localId": "154",
+      "name": "烈空坐EX",
+      "image": "/local-images/zh-tw/M6a/154.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-155",
+      "localId": "155",
+      "name": "蓋諾賽克特EX",
+      "image": "/local-images/zh-tw/M6a/155.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-156",
+      "localId": "156",
+      "name": "沙奈朵EX",
+      "image": "/local-images/zh-tw/M6a/156.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-157",
+      "localId": "157",
+      "name": "甲賀忍蛙BREAK",
+      "image": "/local-images/zh-tw/M6a/157.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-158",
+      "localId": "158",
+      "name": "索爾迦雷歐GX",
+      "image": "/local-images/zh-tw/M6a/158.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-159",
+      "localId": "159",
+      "name": "爆肌蚊GX",
+      "image": "/local-images/zh-tw/M6a/159.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-160",
+      "localId": "160",
+      "name": "皮卡丘&捷克羅姆GX",
+      "image": "/local-images/zh-tw/M6a/160.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-161",
+      "localId": "161",
+      "name": "蒼響V",
+      "image": "/local-images/zh-tw/M6a/161.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-162",
+      "localId": "162",
+      "name": "雷公",
+      "image": "/local-images/zh-tw/M6a/162.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-163",
+      "localId": "163",
+      "name": "夢幻VMAX",
+      "image": "/local-images/zh-tw/M6a/163.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-164",
+      "localId": "164",
+      "name": "阿爾宙斯VSTAR",
+      "image": "/local-images/zh-tw/M6a/164.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-165",
+      "localId": "165",
+      "name": "鯉魚王",
+      "image": "/local-images/zh-tw/M6a/165.jpg",
+      "rarity": "Classic Collection",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-166",
+      "localId": "166",
+      "name": "基本草能量",
+      "image": "/local-images/zh-tw/M6a/166.jpg",
+      "rarity": null,
+      "category": "Energy",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-167",
+      "localId": "167",
+      "name": "基本火能量",
+      "image": "/local-images/zh-tw/M6a/167.jpg",
+      "rarity": null,
+      "category": "Energy",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-168",
+      "localId": "168",
+      "name": "基本水能量",
+      "image": "/local-images/zh-tw/M6a/168.jpg",
+      "rarity": null,
+      "category": "Energy",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-169",
+      "localId": "169",
+      "name": "基本雷能量",
+      "image": "/local-images/zh-tw/M6a/169.jpg",
+      "rarity": null,
+      "category": "Energy",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-170",
+      "localId": "170",
+      "name": "基本超能量",
+      "image": "/local-images/zh-tw/M6a/170.jpg",
+      "rarity": null,
+      "category": "Energy",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-171",
+      "localId": "171",
+      "name": "基本鬥能量",
+      "image": "/local-images/zh-tw/M6a/171.jpg",
+      "rarity": null,
+      "category": "Energy",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-172",
+      "localId": "172",
+      "name": "基本惡能量",
+      "image": "/local-images/zh-tw/M6a/172.jpg",
+      "rarity": null,
+      "category": "Energy",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-173",
+      "localId": "173",
+      "name": "基本鋼能量",
+      "image": "/local-images/zh-tw/M6a/173.jpg",
+      "rarity": null,
+      "category": "Energy",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-R",
+      "localId": "R",
+      "name": "夢幻",
+      "image": "/local-images/zh-tw/M6a/R.jpg",
+      "rarity": "RGB Rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-G",
+      "localId": "G",
+      "name": "夢幻",
+      "image": "/local-images/zh-tw/M6a/G.jpg",
+      "rarity": "RGB Rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    },
+    {
+      "id": "M6a-B",
+      "localId": "B",
+      "name": "夢幻",
+      "image": "/local-images/zh-tw/M6a/B.jpg",
+      "rarity": "RGB Rare",
+      "category": "Pokemon",
+      "variants": {
+        "normal": false,
+        "holo": true,
+        "reverse": false
+      }
+    }
+  ]
+}

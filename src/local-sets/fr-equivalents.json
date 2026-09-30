@@ -1,5 +1,5 @@
 {
-  "_comment": "Code d'extension japonais/coréen -> extension française équivalente, utilisée pour afficher le logo français.",
+  "_comment": "Code d'extension japonais/coréen/chinois -> extension française équivalente, utilisée pour afficher le logo français.",
   "SV1S": "sv01",
   "SV1V": "sv01",
   "SV1a": "sv02",
@@ -30,5 +30,6 @@
   "M2": "me02",
   "M2a": "me02.5",
   "S7R": "swsh7",
-  "S7D": "swsh7"
+  "S7D": "swsh7",
+  "M6a": "30th"
 }

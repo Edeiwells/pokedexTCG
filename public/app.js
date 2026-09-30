@@ -432,13 +432,29 @@ function groupOwnedBySet(items) {
         lang: item.lang || 'fr',
         uniqueCount: 0,
         totalQty: 0,
+        localIds: [],
       });
     }
     const g = groups.get(key);
     g.uniqueCount += 1;
     g.totalQty += totalQty(item);
+    g.localIds.push(item.localId);
   });
   return Array.from(groups.values());
+}
+
+function isBaseSetNumber(localId, official) {
+  const n = Number(localId);
+  return /^\d+$/.test(localId || '') && n >= 1 && n <= official;
+}
+
+function progressRow(label, owned, total, kind) {
+  const pct = Math.min(100, (owned / total) * 100);
+  return `
+    <div class="progress-row">
+      <div class="progress-label"><span>${label}</span><span>${owned}/${total}</span></div>
+      <div class="progress"><div class="progress-bar ${kind}" style="width:${pct}%"></div></div>
+    </div>`;
 }
 
 async function renderCollectionOverview(items) {
@@ -461,11 +477,11 @@ async function renderCollectionOverview(items) {
   els.collectionStatus.textContent = '';
 
   const langs = [...new Set(groups.map((g) => g.lang))];
-  const totalsByKey = {};
+  const countsByKey = {};
   for (const lang of langs) {
     const sets = await getSetsForLang(lang);
     sets.forEach((s) => {
-      totalsByKey[`${s.id}::${lang}`] = s.cardCount ? s.cardCount.official : null;
+      countsByKey[`${s.id}::${lang}`] = s.cardCount || {};
     });
   }
 
@@ -473,7 +489,10 @@ async function renderCollectionOverview(items) {
   groups
     .sort((a, b) => a.setName.localeCompare(b.setName))
     .forEach((g) => {
-      const total = totalsByKey[`${g.setId}::${g.lang}`] || null;
+      const { official, total } = countsByKey[`${g.setId}::${g.lang}`] || {};
+      // Base set: cards numbered up to the official count. Everything past it (secret, full
+      // art, gold, lettered cards...) only counts toward the master set.
+      const baseOwned = official ? g.localIds.filter((id) => isBaseSetNumber(id, official)).length : 0;
       const logoSet = (state.setsByLang[g.lang] || []).find((s) => s.id === g.setId);
       const logoUrl = setLogoUrl(logoSet);
 
@@ -483,8 +502,11 @@ async function renderCollectionOverview(items) {
         <div class="qty-badge">×${g.totalQty}</div>
         ${logoUrl ? `<img src="${logoUrl}" alt="${g.setName}" class="set-logo" onerror="this.replaceWith(Object.assign(document.createElement('div'), {className:'set-logo placeholder'}))" />` : `<div class="set-logo placeholder"></div>`}
         <div class="set-tile-name" title="${g.setName}">${g.setName}</div>
-        <div class="set-tile-meta">${g.lang.toUpperCase()} · ${g.uniqueCount}${total ? '/' + total : ''} carte(s) unique(s)</div>
-        ${total ? `<div class="progress"><div class="progress-bar" style="width:${Math.min(100, (g.uniqueCount / total) * 100)}%"></div></div>` : ''}
+        <div class="set-tile-meta">${g.lang.toUpperCase()} · ${g.uniqueCount} carte(s) unique(s)</div>
+        <div class="tile-progress">
+          ${official ? progressRow('Set de base', baseOwned, official, 'base') : ''}
+          ${total ? progressRow('Master set', g.uniqueCount, total, 'master') : ''}
+        </div>
       `;
       tile.addEventListener('click', () => openCollectionDetail(g.setId, g.lang));
       els.collectionSetsGrid.appendChild(tile);

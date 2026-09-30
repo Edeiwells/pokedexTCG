@@ -8,6 +8,8 @@
   --accent: #a742f5;
   --accent-dark: #8321e0;
   --owned: #3ddc84;
+  --gold: #d4a017;
+  --gold-light: #f5d76e;
 }
 
 * { box-sizing: border-box; }
@@ -278,8 +280,23 @@ button.ghost:hover { background: var(--border); }
   color: var(--muted);
 }
 
-.progress {
+.tile-progress {
   margin-top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-bottom: 3px;
+}
+
+.progress {
   width: 100%;
   height: 6px;
   background: var(--panel-alt);
@@ -290,6 +307,10 @@ button.ghost:hover { background: var(--border); }
 .progress-bar {
   height: 100%;
   background: var(--accent);
+}
+
+.progress-bar.master {
+  background: linear-gradient(90deg, var(--gold), var(--gold-light));
 }
 
 .card-item.missing {
