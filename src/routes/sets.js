@@ -13,6 +13,22 @@ router.get('/', async (req, res) => {
   }
 });
 
+// Release dates for a list of "lang:setId" keys (the sets list from TCGdex doesn't carry them).
+router.get('/release-dates', async (req, res) => {
+  const keys = [...new Set(String(req.query.keys || '').split(',').filter(Boolean))];
+  const result = {};
+  await Promise.all(keys.map(async (key) => {
+    const sep = key.indexOf(':');
+    try {
+      const set = await tcgdex.getSet(key.slice(0, sep), key.slice(sep + 1));
+      result[key] = set.releaseDate || null;
+    } catch (_) {
+      result[key] = null;
+    }
+  }));
+  res.json(result);
+});
+
 router.get('/:id', async (req, res) => {
   try {
     const set = await tcgdex.getSet(req.query.lang, req.params.id);

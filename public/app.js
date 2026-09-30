@@ -485,9 +485,15 @@ async function renderCollectionOverview(items) {
     });
   }
 
+  // Most recent sets first; sets without a known date go last, by name.
+  const releaseDates = await fetch(
+    `/api/sets/release-dates?keys=${encodeURIComponent(groups.map((g) => `${g.lang}:${g.setId}`).join(','))}`
+  ).then((res) => res.json()).catch(() => ({}));
+  const dateOf = (g) => releaseDates[`${g.lang}:${g.setId}`] || '';
+
   els.collectionSetsGrid.innerHTML = '';
   groups
-    .sort((a, b) => a.setName.localeCompare(b.setName))
+    .sort((a, b) => dateOf(b).localeCompare(dateOf(a)) || a.setName.localeCompare(b.setName))
     .forEach((g) => {
       const { official, total } = countsByKey[`${g.setId}::${g.lang}`] || {};
       // Base set: cards numbered up to the official count. Everything past it (secret, full
